@@ -16,3 +16,119 @@ h2 {
 	font-size: 24px;
 	line-height: 30px;
 }
+
+.main-header {
+	background-color: black;
+	min-height: 70px;
+}
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-menu {
+	float: left;
+	width: 780px;
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+}
+
+.main-content {
+	background-color: #f6f3f0;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+.shop {
+	background-color: yellow;
+}
+
+.filter {
+	float: left;
+	width: 220px;
+	background-color: green;
+}
+
+.shop-items-list {
+	float: right;
+	width: 700px;
+	background-color: red;
+}
+
+.shop-item {
+	display: inline-block;
+	width: 220px;
+}
+
+.shop-items-pages-list {
+	clear: both;
+}
+
+.shop-item-card {
+	width: 940px;
+	padding-top: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: yellow;
+}
+
+.shop-item-card-photo-gallery {
+	float: left;
+	width: 460px;	
+	background-color: green;
+}
+
+.shop-item-card-main-photo {
+  margin-bottom: 20px;
+}
+
+.shop-item-card-other-photos img {
+  float: left;
+  width: 140px;
+  margin-right: 20px;  
+}
+
+.shop-item-card-other-photos img:last-child {
+  margin-right: 0;
+}
+
+.shop-item-card-info {
+	float: right;
+	width: 400px;
+	background-color: red;
+}
+
+.main-footer {
+	background-color: black;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	min-height: 190px;
+}
+
+.footer-address {
+	float: left;
+	width: 380px;
+	padding: 0 10px;
+}
+
+.footer-social {
+	float: left;
+	width: 170px;
+}
+
+.footer-developers {
+	float: right;
+	width: 140px;
+}

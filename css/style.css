@@ -70,6 +70,17 @@ h2 {
 .shop-item {
 	display: inline-block;
 	width: 220px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+.shop-item:nth-child(-n+3) {
+	margin-top: 0px;
+}
+
+.shop-item:nth-child(3n+1) {
+	margin-left: 0px;
 }
 
 .shop-items-pages-list {
